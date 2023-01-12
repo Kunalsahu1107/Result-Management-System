@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+   
+    <title>Homepage</title>
+</head>
+<body>
+   
+  <div class="background-image"></div>
+  <div class="bg2">
+      <img src="ST.png" class="bg2">
+  </div>
+    <div class="topbar">
+    
+     <img src="RMS.png" class="logo">
+   
+     
+     <div class="content">
+        <h2>RESULT MANAGEMENT SYSTEM</h2></div>
+    <div class="container">
+ 
+        <div class="nav">
+
+            <ul>
+                <li>
+                    <a href="homepage.html">HOME</a>
+                </li>
+                <li>
+                    <a href="login.php">ADMIN LOGIN</a>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('1')">
+                    <a href="#" class="dropbtn">FACULTIES &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="1">
+                        <a href="">Arts</a>
+                        <a href="">Science</a>
+                        <a href="">Commerce</a>
+                        <a href="">Technology</a>
+                        <a href="">Sports</a>
+                        <a href="">Others</a>
+                    </div>
+    
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('2')">
+                    <a href="#" class="dropbtn">STUDENT &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="2">
+                        <a href="">Admissions</a>
+                        <a href="">Scholarship</a>
+                        <a href="">Examination</a>
+                        <a href="./login.php">Results</a>
+                        <a href="">Manage Results</a>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+   
+      
+       
+
+    </div>
+
+</body>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+.background-image{
+    background-image: linear-gradient(rgba(0,0,0,0.754),rgba(0,0,0,0.754)),url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+  width: 100%;
+    height:100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+ 
+</style>
+</html>
